@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 5cf52da0a643393498893cfe6e374325
+timeCreated: 1509924106
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - exit: {instanceID: 0}
+  - boulder: {instanceID: 0}
+  - enemy1: {instanceID: 0}
+  - knight: {fileID: 1427307534821420, guid: b791607880204cf49b0b6640305da54a, type: 2}
+  - angel: {instanceID: 0}
+  - pendemon: {instanceID: 0}
+  - blockingWall: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

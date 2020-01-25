@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/menu.unity
+    guid: 17f4244fd8ee77c4eb0bb7b294aa880b
+  - enabled: 1
+    path: Assets/character_select.unity
+    guid: a4b1cc3b77ed0814f9154e129a753e16
+  - enabled: 1
+    path: Assets/main.unity
+    guid: 91854de6a9dc4cd4cafcbdf8f8da37ad
+  - enabled: 1
+    path: Assets/dead_screen.unity
+    guid: ab9c5c9009a86ad47a48f9fea5d5df91
+  - enabled: 1
+    path: Assets/win_screen.unity
+    guid: 13cfd5e81e4cb224b8673377622a638b
+  - enabled: 1
+    path: Assets/tutorial_screen.unity
+    guid: 9afbb0cf2c319f945b460c71be87f999

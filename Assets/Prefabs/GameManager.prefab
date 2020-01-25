@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1968917620142742}
+  m_IsPrefabParent: 1
+--- !u!1 &1968917620142742
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4425290401355304}
+  - component: {fileID: 114127023348367876}
+  - component: {fileID: 114919708675729146}
+  - component: {fileID: 82824103499025460}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4425290401355304
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1968917620142742}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82824103499025460
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1968917620142742}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 0054f2c0579a5214aaa8a3f3be8e2292, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114127023348367876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1968917620142742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03afdd82201ddb74089e1540caa5a8c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnDelay: 0.1
+  boardScript: {fileID: 0}
+  playersTurn: 1
+  enemysTurn: 0
+  hasPrayed: 0
+  satansTurn: 0
+  playerTurnCount: 0
+  evilPrayerClip: {fileID: 8300000, guid: 56925a67b803aed4ab6b7e518289a968, type: 3}
+  holyPrayerClip: {fileID: 8300000, guid: 0054f2c0579a5214aaa8a3f3be8e2292, type: 3}
+  satanHit1Clip: {fileID: 8300000, guid: 22b40bf1a30351a46a64533a61b7ee75, type: 3}
+  satanHit2Clip: {fileID: 8300000, guid: bb4c207cd818a4f43ae37324f72db2b3, type: 3}
+  disbeliefClip: {fileID: 8300000, guid: d6cda609fad5bac4d80990f88fed5792, type: 3}
+  satanDeathClip: {fileID: 8300000, guid: e0857d7e437e99544b1dbd3142cbea42, type: 3}
+--- !u!114 &114919708675729146
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1968917620142742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cf52da0a643393498893cfe6e374325, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  columns: 10
+  rows: 10
+  exit: {fileID: 1106338477197290, guid: ea784dc92d27a3442b40a3ba73692e27, type: 2}
+  boulder: {fileID: 1832595388834540, guid: c007a4c0518c7aa41af29024c83ab39d, type: 2}
+  floorTiles:
+  - {fileID: 1015342384377420, guid: 12aebd5568692f7409f574f4f232735f, type: 2}
+  - {fileID: 1957787939027914, guid: ee8c0d57ae50d2d43b6f5c1206317dbb, type: 2}
+  - {fileID: 1730513850108362, guid: a084f84742fff9f4d80db5374c9bfcc8, type: 2}
+  - {fileID: 1078806175951174, guid: 342cde05f169c7843a297d1b11694dfe, type: 2}
+  - {fileID: 1818351653403322, guid: 247b4b2b9e3b42444975162a07be8a8f, type: 2}
+  - {fileID: 1813173887250094, guid: ba0272a6463e9af41b8a6cf1625a09ab, type: 2}
+  - {fileID: 1458303101658704, guid: 3bc8de7aa71ef444489b4bbcd713e65d, type: 2}
+  enemy1: {fileID: 1431454036453268, guid: 8e8ec0ed9e8ea0446add1f8e1d949fb2, type: 2}
+  boulderLocations: []
+  knight: {fileID: 1427307534821420, guid: b791607880204cf49b0b6640305da54a, type: 2}
+  angel: {fileID: 1996006254036090, guid: 107be69edf113bb4786b132087ca717f, type: 2}
+  pendemon: {fileID: 1829829334186630, guid: e5a17909fb7edb749bf2ce0a046b6992, type: 2}
+  blockingWall: {fileID: 1555418704986858, guid: 24a345530dca1f2449349c4aa9f036f3,
+    type: 2}
+  holyAltar: {fileID: 1994706065271120, guid: 790b5567de5ac3f4c8c9b340e2e814ba, type: 2}
+  evilAltar: {fileID: 1914587124512092, guid: 0424c3320b7801546bb7c26ff49db0e5, type: 2}
+  satan: {fileID: 1323990226689360, guid: 47271f7ffb2c08b438d36dea20253dc9, type: 2}
